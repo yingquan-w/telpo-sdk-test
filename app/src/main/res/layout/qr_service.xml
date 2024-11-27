@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/titlebar" />
+
+   <EditText
+       android:id="@+id/et_qr"
+       android:layout_width="match_parent"
+       android:text="1234567890"
+       android:layout_margin="2dp"
+       android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_qr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_number_violet_shape"
+        android:text="Creat QR Code"
+        style="@style/buttonNumberStyle"/>
+
+    <ImageView
+        android:id="@+id/img_qr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+</LinearLayout>
